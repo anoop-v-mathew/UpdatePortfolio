@@ -8,7 +8,9 @@ PrintPortfolioGrowth.R calls the functions in the other R files to
 * plot portfolio growth (PlotPortfolioValue.R)
 
 It can be invoked from the R shell by
+
 ```> setwd("/path/to/dir/UpdatePortfolio")```
+
 ```> source("PrintPortfolioGrowth.R)```
 
 The updatePortfolio() function queries the Yahoo Finance API to get the latest share prices and
